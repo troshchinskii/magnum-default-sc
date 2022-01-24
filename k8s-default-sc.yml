@@ -6,4 +6,4 @@ metadata:
     storageclass.kubernetes.io/is-default-class: "true"
 provisioner: cinder.csi.openstack.org
 parameters:
-  type: multi-attach
+  type: __DEFAULT__
