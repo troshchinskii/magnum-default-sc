@@ -6,6 +6,5 @@ metadata:
     storageclass.kubernetes.io/is-default-class: "true"
 provisioner: cinder.csi.openstack.org
 reclaimPolicy: Retain
-allowVolumeExpansion: "true"
 parameters:
   type: __DEFAULT__
