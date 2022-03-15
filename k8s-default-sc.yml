@@ -7,4 +7,4 @@ metadata:
 provisioner: cinder.csi.openstack.org
 reclaimPolicy: Retain
 parameters:
-  type: multi-attach
+  type: __DEFAULT__
